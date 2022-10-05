@@ -1,7 +1,7 @@
 let homeScore = document.getElementById("scoreHome")
-let guestScore = document.getElementById("scoreGuest")
+let awayScore = document.getElementById("scoreAway")
 let hScore = 0
-let gScore = 0
+let aScore = 0
 
 function add1Home() {
     hScore += 1
@@ -18,24 +18,24 @@ function add3Home() {
     homeScore.textContent = hScore
 }
 
-function add1Guest() {
-    gScore += 1
-    guestScore.textContent = gScore
+function add1Away() {
+    aScore += 1
+    awayScore.textContent = aScore
 }
 
-function add2Guest() {
-    gScore += 2
-    guestScore.textContent = gScore
+function add2Away() {
+    aScore += 2
+    awayScore.textContent = aScore
 }
 
-function add3Guest() {
-    gScore += 3
-    guestScore.textContent = gScore
+function add3Away() {
+    aScore += 3
+    awayScore.textContent = aScore
 }
 
 function newGame() {
     homeScore.textContent = 0
-    guestScore.textContent = 0
+    awayScore.textContent = 0
     hScore = 0
-    gScore = 0
+    aScore = 0
 }
