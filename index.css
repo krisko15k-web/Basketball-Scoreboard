@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
 body {
     margin: 0;
     background: darkred;
@@ -17,12 +19,14 @@ h2 {
 }
 
 h1 {
+    padding-top: 40px;
     height: 150px;
     width: 200px;
     color: red;
     background: black;
     border-radius: 10px;
-    font-size: 120px;
+    font-size: 110px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 button {
